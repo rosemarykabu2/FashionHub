@@ -96,3 +96,28 @@ button i{
   margin-top:20px;
 }
 }
+
+@media screen and (max-width:768px){
+  .image-card img{
+    width:100%;
+  }
+  .main-card{
+    display:flex;
+    border:1px solid #ddd;
+   border-radius:10px;
+   overflow: hidden;
+   border-radius:10px;
+   margin-top:20px;
+  }
+  .text-area{
+    display:flex;
+    align-items:center;
+    margin-right:70px;
+  }
+  .description{
+    margin-right:150px;
+  }
+  .description h3{
+    width:130px;
+  }
+}
